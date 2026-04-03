@@ -12,9 +12,9 @@ export function Navbar() {
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, ease: "circOut" }}
-      className="fixed top-0 left-0 right-0 z-50 w-full px-6 py-8 flex justify-between items-center mix-blend-difference"
+      className="fixed top-0 left-0 right-0 z-50 w-full px-4 md:px-6 py-6 md:py-8 flex justify-between items-center mix-blend-difference"
     >
-      <div className="flex gap-8 text-[10px] uppercase tracking-[0.2em] font-sans text-white mix-blend-difference">
+      <div className="flex gap-4 md:gap-8 text-[10px] uppercase tracking-[0.2em] font-sans text-white mix-blend-difference">
         <motion.div whileHover={{ scale: 1.05, y: -2 }} transition={{ type: "spring", stiffness: 400, damping: 25 }}>
           <Link href="/shop" className="hover:text-white/50 transition-colors">
             Collection

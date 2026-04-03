@@ -24,7 +24,7 @@ export function CartDrawer() {
             animate={{ x: 0, opacity: 1 }}
             exit={{ x: "100%", opacity: 0.5 }}
             transition={{ duration: 1.2, ease: "circOut" }}
-            className="fixed right-0 top-0 h-full w-[400px] bg-white z-50 flex flex-col"
+            className="fixed right-0 top-0 h-full w-full max-w-[400px] bg-white z-50 flex flex-col"
           >
             <div className="flex justify-between items-center p-8">
               <h2 className="font-sans text-[10px] uppercase tracking-[0.2em] text-black/50">

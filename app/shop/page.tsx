@@ -83,7 +83,7 @@ export default function Shop() {
         </div>
         
         {/* Filters (Mock) */}
-        <div className="flex gap-8 font-sans text-[10px] uppercase tracking-[0.2em]">
+        <div className="flex flex-wrap gap-4 md:gap-8 font-sans text-[10px] uppercase tracking-[0.2em]">
           <button className="text-black pb-1">All</button>
           <button className="text-black/30 hover:text-black/70 transition-colors pb-1">Outerwear</button>
           <button className="text-black/30 hover:text-black/70 transition-colors pb-1">Tees</button>

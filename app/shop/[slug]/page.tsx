@@ -65,7 +65,7 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
           </div>
 
           {/* Sizing & Actions */}
-          <div className="mt-24 pt-12">
+          <div className="mt-12 md:mt-24 pt-6 md:pt-12">
             <div className="flex justify-between items-center mb-6 font-sans text-[10px] uppercase tracking-[0.2em]">
               <span className="text-black/40">Select Size</span>
               <button className="text-black/30 hover:text-black transition-colors underline underline-offset-4">
@@ -73,7 +73,7 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
               </button>
             </div>
 
-            <div className="flex gap-4 mb-12">
+            <div className="flex flex-wrap gap-4 mb-12">
               {SIZES.map((size) => (
                 <button
                   key={size}
